@@ -1,8 +1,20 @@
 <h1>Signup!</h1>
 <%= form_for :user, url: '/users' do |f| %>
-  First Name: <%= f.text_field :first_name %>
-  LastName: <%= f.text_field :last_name %>
-  Email: <%= f.text_field :email %>
-  Password: <%= f.password_field :password %>
-  <%= f.submit "Submit" %>
+  <div style="display: flex; flex-direction: column; align-items: left;">
+    <div style="margin-bottom: 10px;">
+      First Name: <%= f.text_field :first_name %>
+    </div>
+    <div style="margin-bottom: 10px;">
+      Last Name: <%= f.text_field :last_name %>
+    </div>
+    <div style="margin-bottom: 10px;">
+      Email: <%= f.text_field :email %>
+    </div>
+    <div style="margin-bottom: 10px;">
+      Password: <%= f.password_field :password %>
+    </div>
+    <div style="margin-bottom: 10px;">
+      <%= f.submit "Submit" %>
+    </div>
+  </div>
 <% end %>
