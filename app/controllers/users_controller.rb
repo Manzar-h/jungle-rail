@@ -7,9 +7,12 @@ class UsersController < ApplicationController
     user = User.new(user_params)
     if user.save
       session[:user_id] = user.id
+      puts "this is the user_id", session[:user_id]
       redirect_to root_path
     else
+      #puts "save failed", user.errors.inspect
       redirect_to signup_path
+      
     end
   end
   

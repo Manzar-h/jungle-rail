@@ -29,6 +29,8 @@ class ApplicationController < ActionController::Base
 
 
   def current_user
+    #puts "this is the session", session.inspect, "This is end of the session"
+    #puts "this is the user_id", session[:user_id]
     @current_user ||= User.find(session[:user_id]) if session[:user_id]
   end
   helper_method :current_user
