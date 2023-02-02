@@ -17,9 +17,6 @@ The functional requirements of the project include the implementation of feature
 ### Screenshot of the message displayed when the cart is empty
 !["Screenshot of emty cart"](https://github.com/ManzarTelus/jungle-rail/blob/master/docs/empty_cart.PNG)
 
-### Screenshot of the Admin form to add a product.
-!["Screenshot of the Admin form"](https://github.com/ManzarTelus/jungle-rail/blob/master/docs/new_product.PNG)
-
 ### Screenshot of the message displayed for a sold-out item
 !["Screenshot displaying sold-out item"](https://github.com/ManzarTelus/jungle-rail/blob/master/docs/sold_out.PNG)
 
